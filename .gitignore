@@ -45,9 +45,6 @@ app.*.map.json
 # Environment variables
 assets/.env
 
-# Firebase configuration files
-lib/firebase_options.dart
-
 # Flutter build and cache files
 build/
 .flutter/
@@ -71,16 +68,13 @@ app.*.symbols
 app.*.map.json
 
 # macOS build folder
-macos/Flutter/ephemeral/
+macos/
 
 # Windows build folder
-windows/Flutter/ephemeral/
+windows/
 
 # Linux build folder
-linux/Flutter/ephemeral/
+linux/
 
 # iOS build and generated files
-ios/Flutter/App.framework
-ios/Flutter/Flutter.framework
-ios/Flutter/Generated.xcconfig
-ios/Flutter/ephemeral/
+ios/
